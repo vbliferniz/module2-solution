@@ -6,14 +6,16 @@ body {
 	margin: 0;
 }
 
-p {
+dev > section {
+	display: block;
 	float: left;
 	border: 2px solid black;
 	margin: 10px;
 	padding: 10px;
 }
 
-p > span {
+section > h2 {
+	display: inline;
 	float: right;
 	border: 2px solid black;
 	margin-right: -12px;
@@ -27,10 +29,6 @@ dev {
 
 h1 {
 	text-align: center;
-}
-
-h2 {
-	float: right;
 }
 
 /* desctop view */
