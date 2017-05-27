@@ -13,12 +13,24 @@ p {
 	padding: 10px;
 }
 
+p > span {
+	float: right;
+	border: 2px solid black;
+	margin-right: -12px;
+	margin-top: -12px;
+	padding: 5px;
+}
+
 dev {
 	width: 100%;	
 }
 
 h1 {
 	text-align: center;
+}
+
+h2 {
+	float: right;
 }
 
 /* desctop view */
