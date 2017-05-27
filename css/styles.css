@@ -4,23 +4,52 @@
 
 body {
 	margin: 0;
+	font-family: "Comic Sans MS", cursive, sans-serif
+}
+dev {
+	float: left;
+	position: relative;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 dev > section {
+	position: relative;
 	display: block;
 	float: left;
-	border: 2px solid black;
+	border: 1px solid black;
 	margin: 10px;
 	padding: 10px;
+	background-color: #CCCCCC;
 }
 
-section > h2 {
-	display: inline;
-	float: right;
-	border: 2px solid black;
-	margin-right: -12px;
-	margin-top: -12px;
+h2 {
+	position: absolute;
+	top: -1px;
+	right: -1px;
+	border: 1px solid black;
+	margin: 0px;
 	padding: 5px;
+	font-size: 125%
+}
+
+p {
+	position: relative;
+	top: 20px;
+
+}
+
+#menu_title_1 {
+	background-color: #A98765;
+}
+
+#menu_title_2 {
+	background-color: #ABCDEF;
+	color: #111111;
+}
+
+#menu_title_3 {
+	background-color: #98789A;
 }
 
 dev {
@@ -29,6 +58,7 @@ dev {
 
 h1 {
 	text-align: center;
+	font-size: 175%;
 }
 
 /* desctop view */
