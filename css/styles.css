@@ -6,14 +6,21 @@ body {
 	margin: 0;
 	font-family: "Comic Sans MS", cursive, sans-serif
 }
+
+h1 {
+	text-align: center;
+	font-size: 175%;
+}
+
 dev {
 	float: left;
 	position: relative;
 	padding-left: 10px;
 	padding-right: 10px;
+	width: 100%;
 }
 
-dev > section {
+section {
 	position: relative;
 	display: block;
 	float: left;
@@ -33,35 +40,24 @@ h2 {
 	font-size: 125%
 }
 
-p {
-	position: relative;
-	top: 20px;
-
-}
-
 #menu_title_1 {
 	background-color: #A98765;
 }
 
 #menu_title_2 {
 	background-color: #ABCDEF;
-	color: #111111;
 }
 
 #menu_title_3 {
 	background-color: #98789A;
 }
 
-dev {
-	width: 100%;	
+p {
+	position: relative;
+	top: 20px;
 }
 
-h1 {
-	text-align: center;
-	font-size: 175%;
-}
-
-/* desctop view */
+/* desktop view */
 @media (min-width: 992px) {
 	.col_ld_4 {
 		/* subtract 20px for 10px left and right margins */
