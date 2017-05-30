@@ -9,7 +9,7 @@ body {
 
 h1 {
 	text-align: center;
-	font-size: 175%;
+	font-size: 1.75em;
 }
 
 dev {
@@ -37,7 +37,7 @@ h2 {
 	border: 1px solid black;
 	margin: 0px;
 	padding: 5px;
-	font-size: 125%
+	font-size: 1.25em;
 }
 
 #menu_title_1 {
@@ -71,7 +71,7 @@ p {
 		/* subtract 20px for 10px left and right margins */
 		width: calc(50% - 20px);
 	}
-	.col_md_6:nth-child(3) {
+	.col_md_12 {
 		/* subtract 20px for 10px left and right margins */
 		width: calc(100% - 20px);
 	}
